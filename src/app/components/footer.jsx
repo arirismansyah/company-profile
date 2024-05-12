@@ -123,12 +123,6 @@ export default function Footer() {
                       </div>
                     </div>
                   </div>
-                  <div className="mt-6">
-                    <h5 className="tracking-[1px] text-lg text-gray-100 font-semibold">
-                      Image Attribution
-                    </h5>{" "}
-                    <span>Image from: Freepik</span>
-                  </div>
                 </div>
               </div>
             </div>
@@ -141,8 +135,14 @@ export default function Footer() {
           <div className="grid md:grid-cols-2 items-center gap-6">
             <div className="md:text-start text-center">
               <p className="mb-0 text-gray-300">
-                © {new Date().getFullYear()} Ganapatih Akasa Solution
+                © {new Date().getFullYear()} Ganapatih Akasa Solution.
               </p>
+              <span>
+                Image by:{" "}
+                <a href="freepik.com/" hre>
+                  Freepik
+                </a>
+              </span>
             </div>
 
             <ul className="list-none md:text-end text-center space-x-1">
