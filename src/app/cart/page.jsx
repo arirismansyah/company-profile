@@ -70,7 +70,7 @@ export default function ExploreOne() {
         </div>
       </div>
       <section className="relative md:pb-24 pb-16 -mt-16">
-        <div className="container z-1">
+        <div className="container z-3">
           <div className="grid grid-cols-1">
             <form className="p-6 bg-white dark:bg-slate-900 rounded-xl shadow dark:shadow-gray-700">
               <div className="registration-form text-dark text-start">
