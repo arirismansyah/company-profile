@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineCopy, AiOutlineUser } from "react-icons/ai";
 import { LuSearch, LuSettings } from "react-icons/lu";
-import { PiWalletBold } from "react-icons/pi";
+import { PiWalletBold, PiBasketBold } from "react-icons/pi";
 import { LiaSignOutAltSolid } from "react-icons/lia";
 import { HiOutlineMoon, HiOutlineSun } from "react-icons/hi2";
 
@@ -223,12 +223,12 @@ export default function Navbar() {
 
   return (
     <>
-      <nav id="topnav" className="defaultscroll is-sticky">
+      <nav id="topnav" className="defaultscroll is-sticky flex items-center">
         <div className="container">
           {/* <!-- Logo container--> */}
           <Link className="logo ps-0" href="/">
             <Image
-              src="/images/logo-icon-28.png"
+              src="/images/logo-ganapatih-sfc.png"
               width={28}
               height={28}
               className="inline-block sm:hidden"
@@ -236,16 +236,16 @@ export default function Navbar() {
             />
             <div className="sm:block hidden">
               <Image
-                src="/images/logo-dark.png"
+                src="/images/logo-ganapatih-sfc.png"
                 width={116}
                 height={28}
                 className="inline-block dark:hidden h-7"
                 alt=""
               />
               <Image
-                src="/images/logo-white.png"
+                src="/images/logo-ganapatih-sw.png"
                 width={116}
-                height={28}
+                height={8}
                 className="hidden dark:inline-block h-7"
                 alt=""
               />
@@ -271,9 +271,20 @@ export default function Navbar() {
           </div>
 
           {/* <!--Login button Start--> */}
-          <ul className="buy-button list-none mb-0">
+
+          <ul className="buy-button list-none align-middle mb-0 items-center">
             <li className="inline-block mb-0">
-              <span className="relative inline-block">
+              <Link
+                href="#"
+                onClick={metamask}
+                id="connectWallet"
+                className="btn btn-icon rounded-full bg-dark-blue-600 hover:bg-orange-700 border-dark-blue-600 hover:border-orange-700 text-white"
+              >
+                <PiBasketBold />
+              </Link>
+            </li>
+            <li className="inline-block mb-0 ps-1">
+              <div className="relative inline-block">
                 <input
                   type="checkbox"
                   className="checkbox opacity-0 absolute"
@@ -288,7 +299,7 @@ export default function Navbar() {
                   <HiOutlineSun className="text-[20px] text-yellow-500" />
                   <span className="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] w-7 h-7"></span>
                 </label>
-              </span>
+              </div>
             </li>
           </ul>
 

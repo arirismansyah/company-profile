@@ -19,7 +19,9 @@ export default function Footer() {
     // Encode the subject and body to ensure proper formatting
     const recipient = "ganapatihdummy@mail.com";
     const subject = "Lets start project!";
-    const mailtoLink = `mailto:${recipient}?subject=${encodeURIComponent(
+    const from_mail = document.getElementById("email");
+    console.log(from_mail);
+    const mailtoLink = `mailto:${recipient}?form=${from_mail}?subject=${encodeURIComponent(
       subject
     )}`;
     // Open the email client
@@ -48,17 +50,15 @@ export default function Footer() {
                   <div className="subcribe-form z-1">
                     <form className="relative max-w-lg md:ms-auto">
                       <input
-                        disabled
-                        hidden
                         type="email"
-                        id="subcribe"
+                        id="email"
                         name="email"
                         className="pt-4 pe-40 pb-4 ps-6 w-full h-[50px] outline-none text-slate-900 dark:text-white rounded-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800"
                         placeholder="Enter your email :"
                       />
                       <button
                         onClick={handleEmail}
-                        className="btn absolute top-[2px] end-[3px] h-[46px] bg-violet-600 hover:bg-violet-700 border-violet-600 hover:border-violet-700 text-white rounded-full"
+                        className="btn absolute top-[2px] end-[3px] h-[46px] bg-dark-blue-600 hover:bg-dark-blue-700 border-dark-blue-600 hover:border-dark-blue-700 text-white rounded-full"
                       >
                         Email us
                       </button>
@@ -79,34 +79,28 @@ export default function Footer() {
                 <div className="lg:col-span-4 md:col-span-12">
                   <Link href="#" className="text-[22px] focus:outline-none">
                     <Image
-                      src="/images/logo-white.png"
+                      src="/images/logo-ganapatih-sw.png"
                       placeholder="blur"
-                      blurDataURL="/images/logo-white.png"
+                      blurDataURL="/images/logo-ganapatih-sw.png"
                       alt=""
                       width={116}
                       height={28}
                     />
                   </Link>
                   <p className="mt-6 text-gray-300">
-                    Ganapatih Akasa Solution. Empowering Businesses with Reliable IT Solutions
+                    Ganapatih Akasa Solution. Unleash your creatifity with
+                    artificial intelligence
                   </p>
                 </div>
 
-                
-
-                
-                
-
                 <div className="lg:col-span-3 md:col-span-4">
-                  
-
                   <div className="mt-6">
                     <h5 className="tracking-[1px] text-lg text-gray-100 font-semibold">
                       Contact Details
                     </h5>
 
                     <div className="flex mt-6">
-                      <Mail className="w-5 h-5 text-violet-600 me-3 mt-1"></Mail>
+                      <Mail className="w-5 h-5 text-dark-blue-600 me-3 mt-1"></Mail>
                       <div className="">
                         <Link
                           href="mailto:contact@example.com"
@@ -118,7 +112,7 @@ export default function Footer() {
                     </div>
 
                     <div className="flex mt-6">
-                      <Phone className="w-5 h-5 text-violet-600 me-3 mt-1"></Phone>
+                      <Phone className="w-5 h-5 text-dark-blue-600 me-3 mt-1"></Phone>
                       <div className="">
                         <Link
                           href="tel:+152534-468-854"
@@ -128,6 +122,12 @@ export default function Footer() {
                         </Link>
                       </div>
                     </div>
+                  </div>
+                  <div className="mt-6">
+                    <h5 className="tracking-[1px] text-lg text-gray-100 font-semibold">
+                      Image Attribution
+                    </h5>{" "}
+                    <span>Image from: Freepik</span>
                   </div>
                 </div>
               </div>
@@ -150,7 +150,7 @@ export default function Footer() {
                 <Link
                   href="https://1.envato.market/giglink-next"
                   target="_blank"
-                  className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-violet-600 dark:hover:border-violet-600 hover:bg-violet-600 dark:hover:bg-violet-600"
+                  className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-dark-blue-600 dark:hover:border-dark-blue-600 hover:bg-dark-blue-600 dark:hover:bg-dark-blue-600"
                 >
                   <AiOutlineShoppingCart />
                 </Link>
@@ -159,7 +159,7 @@ export default function Footer() {
                 <Link
                   href="https://dribbble.com/shreethemes"
                   target="_blank"
-                  className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-violet-600 dark:hover:border-violet-600 hover:bg-violet-600 dark:hover:bg-violet-600"
+                  className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-dark-blue-600 dark:hover:border-dark-blue-600 hover:bg-dark-blue-600 dark:hover:bg-dark-blue-600"
                 >
                   <FiDribbble className="text-base" />
                 </Link>
@@ -168,7 +168,7 @@ export default function Footer() {
                 <Link
                   href="https://www.behance.net/shreethemes"
                   target="_blank"
-                  className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-violet-600 dark:hover:border-violet-600 hover:bg-violet-600 dark:hover:bg-violet-600"
+                  className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-dark-blue-600 dark:hover:border-dark-blue-600 hover:bg-dark-blue-600 dark:hover:bg-dark-blue-600"
                 >
                   <BiLogoBehance className="text-base" />
                 </Link>
@@ -177,7 +177,7 @@ export default function Footer() {
                 <Link
                   href="http://linkedin.com/company/shreethemes"
                   target="_blank"
-                  className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-violet-600 dark:hover:border-violet-600 hover:bg-violet-600 dark:hover:bg-violet-600"
+                  className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-dark-blue-600 dark:hover:border-dark-blue-600 hover:bg-dark-blue-600 dark:hover:bg-dark-blue-600"
                 >
                   <FaLinkedin className="text-base" />
                 </Link>
@@ -186,7 +186,7 @@ export default function Footer() {
                 <Link
                   href="https://www.facebook.com/shreethemes"
                   target="_blank"
-                  className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-violet-600 dark:hover:border-violet-600 hover:bg-violet-600 dark:hover:bg-violet-600"
+                  className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-dark-blue-600 dark:hover:border-dark-blue-600 hover:bg-dark-blue-600 dark:hover:bg-dark-blue-600"
                 >
                   <LiaFacebookF className="text-base" />
                 </Link>
@@ -195,7 +195,7 @@ export default function Footer() {
                 <Link
                   href="https://www.instagram.com/shreethemes/"
                   target="_blank"
-                  className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-violet-600 dark:hover:border-violet-600 hover:bg-violet-600 dark:hover:bg-violet-600"
+                  className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-dark-blue-600 dark:hover:border-dark-blue-600 hover:bg-dark-blue-600 dark:hover:bg-dark-blue-600"
                 >
                   <AiOutlineInstagram className="text-base" />
                 </Link>
@@ -204,7 +204,7 @@ export default function Footer() {
                 <Link
                   href="https://twitter.com/shreethemes"
                   target="_blank"
-                  className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-violet-600 dark:hover:border-violet-600 hover:bg-violet-600 dark:hover:bg-violet-600"
+                  className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-dark-blue-600 dark:hover:border-dark-blue-600 hover:bg-dark-blue-600 dark:hover:bg-dark-blue-600"
                 >
                   <AiOutlineTwitter className="text-base" />
                 </Link>
@@ -212,7 +212,7 @@ export default function Footer() {
               <li className="inline">
                 <Link
                   href="mailto:support@shreethemes.in"
-                  className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-violet-600 dark:hover:border-violet-600 hover:bg-violet-600 dark:hover:bg-violet-600"
+                  className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-dark-blue-600 dark:hover:border-dark-blue-600 hover:bg-dark-blue-600 dark:hover:bg-dark-blue-600"
                 >
                   <FaRegEnvelope className="align-middle" />
                 </Link>

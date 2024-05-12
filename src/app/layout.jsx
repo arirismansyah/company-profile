@@ -12,7 +12,7 @@ const urbanist = Urbanist({
 
 export const metadata = {
   title: "Ganapatih Akasa Solution",
-  description: "Next Js NFT Marketplace Template",
+  description: "Unleash your creatifity with artificial intelligence",
 };
 
 export default function RootLayout({ children }) {

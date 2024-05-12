@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ExploreItems } from "../data/data";
+import { ExploreItems, ClientItems } from "../data/data";
 
 export default function ExploreTtem({ title, data }) {
   return (
@@ -12,12 +12,12 @@ export default function ExploreTtem({ title, data }) {
         </div>
 
         <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-10 gap-[30px]">
-          {ExploreItems.slice(0, 8).map((item, index) => (
+          {ClientItems.slice(0, 8).map((item, index) => (
             <div
               key={index}
               className="group relative p-2 rounded-lg bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-800 hover:shadow-md dark:shadow-md hover:dark:shadow-gray-700 transition-all duration-500 h-fit"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-red-600 to-violet-600 rounded-lg -mt-1 group-hover:-mt-2 -ms-1 group-hover:-ms-2 h-[98%] w-[98%] -z-1 transition-all duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-light-blue-600 to-orange-600 rounded-lg -mt-1 group-hover:-mt-2 -ms-1 group-hover:-ms-2 h-[98%] w-[98%] -z-1 transition-all duration-500"></div>
               <div className="relative overflow-hidden">
                 <div className="relative overflow-hidden rounded-lg">
                   <Image
@@ -36,24 +36,24 @@ export default function ExploreTtem({ title, data }) {
                 <div className="absolute -bottom-20 group-hover:bottom-1/2 group-hover:translate-y-1/2 start-0 end-0 mx-auto text-center transition-all duration-500">
                   <Link
                     href={`/item-detail/${item.id}`}
-                    className="btn btn-sm rounded-full bg-violet-600 hover:bg-violet-700 border-violet-600 hover:border-violet-700 text-white"
+                    className="btn btn-sm rounded-full bg-dark-blue-600 hover:bg-light-blue-600 border-dark-blue-600 hover:border-light-blue-600 text-white"
                   >
-                    <i className="mdi mdi-lightning-bolt"></i> Buy Now
+                    <i className="mdi mdi-lightning-bolt"></i> See Project
                   </Link>
                 </div>
 
-                <div className="absolute top-2 end-2 opacity-0 group-hover:opacity-100 transition-all duration-500">
+                {/* <div className="absolute top-2 end-2 opacity-0 group-hover:opacity-100 transition-all duration-500">
                   <Link
                     href="#"
                     className="btn btn-icon btn-sm rounded-full bg-violet-600 hover:bg-violet-700 border-violet-600 hover:border-violet-700 text-white"
                   >
                     <i className="mdi mdi-plus"></i>
                   </Link>
-                </div>
+                </div> */}
               </div>
 
               <div className="mt-3">
-                <div className="flex items-center">
+                {/* <div className="flex items-center">
                   <Image
                     src={item.avatar}
                     placeholder="blur"
@@ -69,18 +69,18 @@ export default function ExploreTtem({ title, data }) {
                   >
                     {item.subtext}
                   </Link>
-                </div>
+                </div> */}
 
                 <div className="my-3">
                   <Link
                     href={`/item-detail/${item.id}`}
                     className="font-semibold hover:text-violet-600"
                   >
-                    {item.title}
+                    {item.name}
                   </Link>
                 </div>
 
-                <div className="flex justify-between p-2 bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
+                {/* <div className="flex justify-between p-2 bg-gray-50 dark:bg-slate-800 rounded-lg shadow dark:shadow-gray-700">
                   <div>
                     <span className="text-[16px] font-medium text-slate-400 block">
                       Price
@@ -98,7 +98,7 @@ export default function ExploreTtem({ title, data }) {
                       <i className="mdi mdi-ethereum"></i> 3.55 ETH
                     </span>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}

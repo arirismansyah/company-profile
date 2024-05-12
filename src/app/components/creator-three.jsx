@@ -6,7 +6,7 @@ import Image from "next/image";
 
 import { MdOutlineArrowForward } from "react-icons/md";
 import { FiUserPlus } from "react-icons/fi";
-import { ExploreItems } from "../data/data";
+import { ExploreItems, TeamItems } from "../data/data";
 
 export default function CreatorThree({ title, description, data }) {
   return (
@@ -16,9 +16,9 @@ export default function CreatorThree({ title, description, data }) {
               Our Team
             </h3>
 
-            <p className="text-slate-400 max-w-xl mx-auto">
+            {/* <p className="text-slate-400 max-w-xl mx-auto">
               We offer a wide range of IT services, including:
-            </p>
+            </p> */}
           </div>
       <div id="teams" className="container">
         <div className="md:flex justify-between items-center">
@@ -27,7 +27,7 @@ export default function CreatorThree({ title, description, data }) {
         </div>
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-10 gap-[30px]">
-          {ExploreItems.slice(0, 9).map((item, index) => (
+          {TeamItems.slice(0, 9).map((item, index) => (
             <div
               key={index}
               className="flex justify-between items-center p-3 rounded-md bg-white dark:bg-slate-900 shadow dark:shadow-gray-800"
@@ -43,7 +43,7 @@ export default function CreatorThree({ title, description, data }) {
                     placeholder="blur"
                     blurDataURL={item.avatar}
                   />
-                  <i className="mdi mdi-check-decagram text-emerald-600 text-lg absolute -top-2 -end-2"></i>
+                  {/* <i className="mdi mdi-check-decagram text-emerald-600 text-lg absolute -top-2 -end-2"></i> */}
                 </div>
 
                 <div className="ms-3">
@@ -59,12 +59,12 @@ export default function CreatorThree({ title, description, data }) {
                 </div>
               </div>
 
-              <Link
+              {/* <Link
                 href="/"
                 className="btn btn-icon rounded-full bg-violet-600/5 hover:bg-violet-600 border-violet-600/10 hover:border-violet-600 text-violet-600 hover:text-white"
               >
                 <FiUserPlus className="text-[20px]" />
-              </Link>
+              </Link> */}
             </div>
           ))}
         </div>

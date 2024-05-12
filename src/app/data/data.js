@@ -534,3 +534,96 @@ export const accordionData = [
       content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
   },
 ]
+
+export const HeroItems = [
+  {
+    id: 1,
+    image: "/images/hero/hero1.png",
+    title: "Caption Hero",    
+  },
+  {
+    id: 2,
+    image: "/images/hero/hero2.png",
+    title: "Caption Hero",    
+  },
+]
+export const TeamItems = [
+  {
+    id: 1,
+    avatar: "/images/items/6.jpg",
+    name: "Team Member", 
+    subtext: "@team_member", 
+  },
+  {
+    id: 2,
+    avatar: "/images/items/6.jpg",
+    name: "Team Member",
+    subtext: "@team_member", 
+  },
+  {
+    id: 3,
+    avatar: "/images/items/6.jpg",
+    name: "Team Member",
+    subtext: "@team_member", 
+  },
+  {
+    id: 4,
+    avatar: "/images/items/6.jpg",
+    name: "Team Member",
+    subtext: "@team_member", 
+  },
+  {
+    id: 5,
+    avatar: "/images/items/6.jpg",
+    name: "Team Member",
+    subtext: "@team_member", 
+  },
+  {
+    id: 6,
+    avatar: "/images/items/6.jpg",
+    name: "Team Member",
+    subtext: "@team_member", 
+  },
+]
+export const ClientItems = [
+  {
+    id: 1,
+    image: "/images/client/client1.png",
+    name: "Client Name",    
+  },
+  {
+    id: 2,
+    image: "/images/client/client2.png",
+    name: "Client Name",    
+  },
+  {
+    id: 3,
+    image: "/images/client/client3.png",
+    name: "Client Name",    
+  },
+  {
+    id: 4,
+    image: "/images/client/client4.png",
+    name: "Client Name",    
+  },
+  // {
+  //   id: 5,
+  //   image: "/images/client/client1.png",
+  //   name: "Client Name",    
+  // },
+  // {
+  //   id: 6,
+  //   image: "/images/client/client2.png",
+  //   name: "Client Name",    
+  // },
+  // {
+  //   id: 7,
+  //   image: "/images/client/client3.png",
+  //   name: "Client Name",    
+  // },
+  // {
+  //   id: 8,
+  //   image: "/images/client/client4.png",
+  //   name: "Client Name",    
+  // },
+]
