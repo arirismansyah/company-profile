@@ -7,6 +7,7 @@ import { ExploreItems, HeroItems } from "./data/data";
 
 const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
 import "tiny-slider/dist/tiny-slider.css";
+const Switcher = dynamic(() => import("./components/theme-switcher"));
 
 const Navbar = dynamic(() => import("./components/navbar"));
 const Footer = dynamic(() => import("./components/footer"));
@@ -89,7 +90,10 @@ export default function Landing() {
                         Ganapatih Akasa Solution
                       </span>{" "}
                     </h4>
-                    <p className="text-lg max-w-xl">Ganapatih Akasa Solution, unleash your creatifity with artificial intelligence</p>
+                    <p className="text-lg max-w-xl">
+                      Ganapatih Akasa Solution, unleash your creatifity with
+                      artificial intelligence
+                    </p>
 
                     <div className="mt-6">
                       <Link
@@ -173,6 +177,7 @@ export default function Landing() {
         />
       </section>
       <Footer />
+      <Switcher></Switcher>
     </>
   );
 }

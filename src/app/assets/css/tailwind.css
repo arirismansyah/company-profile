@@ -4664,7 +4664,7 @@ h6,
 .tns-controls button[data-controls="prev"]:hover,
 .tns-controls button[data-controls="next"]:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(124 58 237 / var(--tw-bg-opacity));
+  background-color: rgb(0 94 136 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }

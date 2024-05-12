@@ -275,15 +275,14 @@ export default function Navbar() {
           <ul className="buy-button list-none align-middle mb-0 items-center">
             <li className="inline-block mb-0">
               <Link
-                href="#"
-                onClick={metamask}
+                href="cart"
                 id="connectWallet"
-                className="btn btn-icon rounded-full bg-dark-blue-600 hover:bg-orange-700 border-dark-blue-600 hover:border-orange-700 text-white"
+                className="btn rounded-full bg-dark-blue-600 hover:bg-orange-700 border-dark-blue-600 hover:border-orange-700 text-white"
               >
-                <PiBasketBold />
+                Cart <i className="mdi mdi-cart-outline me-1"></i>
               </Link>
             </li>
-            <li className="inline-block mb-0 ps-1">
+            {/* <li className="inline-block mb-0 ps-1">
               <div className="relative inline-block">
                 <input
                   type="checkbox"
@@ -300,7 +299,7 @@ export default function Navbar() {
                   <span className="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] w-7 h-7"></span>
                 </label>
               </div>
-            </li>
+            </li> */}
           </ul>
 
           <div
