@@ -175,13 +175,18 @@ export default function ExploreOne() {
                         <div className="grid grid-cols-1">
                           <div className="mb-4">
                             <label className="font-semibold">Your Price:</label>
-                            <input
-                              name="etherium"
-                              id="number3"
-                              type="number"
-                              className="form-input w-full text-[15px] py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded-full outline-none border border-gray-200 focus:border-dark-blue-600 dark:border-gray-800 dark:focus:border-dark-blue-600 focus:ring-0 mt-3"
-                              placeholder="00.00 ETH"
-                            />
+                            <table class="w-full text-sm">
+                              <tbody>
+                                <tr>
+                                  <td>Sevice 2</td>
+                                  <td className="text-right">Rp. xx.00</td>
+                                </tr>
+                                <tr>
+                                  <td>Sevice 2</td>
+                                  <td className="text-right">Rp. xx.00</td>
+                                </tr>
+                              </tbody>
+                            </table>
                           </div>
                         </div>
                       </form>
