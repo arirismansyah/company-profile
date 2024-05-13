@@ -1713,62 +1713,62 @@ video {
 /* gradient from -- branding  */
 .from-orange-600 {
   --tw-gradient-from: #ff8811 var(--tw-gradient-from-position) !important;
-  --tw-gradient-to: rgb(255 136 17 / 0) var(--tw-gradient-to-position) !important;
+  /* --tw-gradient-to: rgb(255 136 17 / 0) var(--tw-gradient-to-position) !important; */
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
 }
 .from-orange-600\/20 {
   --tw-gradient-from: rgb(255 136 17 / 0.2) var(--tw-gradient-from-position) !important;
-  --tw-gradient-to: rgb(255 136 17 / 0) var(--tw-gradient-to-position) !important;
+  /* --tw-gradient-to: rgb(255 136 17 / 0) var(--tw-gradient-to-position) !important; */
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
 }
 .from-orange-600\/40 {
   --tw-gradient-from: rgb(255 136 17 / 0.4) var(--tw-gradient-from-position) !important;
-  --tw-gradient-to: rgb(255 136 17 / 0) var(--tw-gradient-to-position) !important;
+  /* --tw-gradient-to: rgb(255 136 17 / 0) var(--tw-gradient-to-position) !important; */
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
 }
 .from-yellow-600 {
   --tw-gradient-from: #ffb62e var(--tw-gradient-from-position) !important;
-  --tw-gradient-to: rgb(255 182 46 / 0) var(--tw-gradient-to-position) !important;
+  /* --tw-gradient-to: rgb(255 182 46 / 0) var(--tw-gradient-to-position) !important; */
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
 }
 .from-yellow-600\/20 {
   --tw-gradient-from: rgb(255 182 46 / 0.2) var(--tw-gradient-from-position) !important;
-  --tw-gradient-to: rgb(255 182 46 / 0) var(--tw-gradient-to-position) !important;
+  /* --tw-gradient-to: rgb(255 182 46 / 0) var(--tw-gradient-to-position) !important; */
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
 }
 .from-yellow-600\/40 {
   --tw-gradient-from: rgb(255 182 46 / 0.4) var(--tw-gradient-from-position) !important;
-  --tw-gradient-to: rgb(255 182 46 / 0) var(--tw-gradient-to-position) !important;
+  /* --tw-gradient-to: rgb(255 182 46 / 0) var(--tw-gradient-to-position) !important; */
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
 }
 .from-dark-blue-600 {
   --tw-gradient-from: #005e88 var(--tw-gradient-from-position) !important;
-  --tw-gradient-to: rgb(0 94 136 / 0) var(--tw-gradient-to-position) !important;
+  /* --tw-gradient-to: rgb(0 94 136 / 0) var(--tw-gradient-to-position) !important; */
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
 }
 .from-dark-blue-600\/20 {
   --tw-gradient-from: rgb(0 94 136 / 0.2) var(--tw-gradient-from-position) !important;
-  --tw-gradient-to: rgb(0 94 136 / 0) var(--tw-gradient-to-position) !important;
+  /* --tw-gradient-to: rgb(0 94 136 / 0) var(--tw-gradient-to-position) !important; */
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
 }
 .from-dark-blue-600\/40 {
   --tw-gradient-from: rgb(0 94 136 / 0.4) var(--tw-gradient-from-position) !important;
-  --tw-gradient-to: rgb(0 94 136 / 0) var(--tw-gradient-to-position) !important;
+  /* --tw-gradient-to: rgb(0 94 136 / 0) var(--tw-gradient-to-position) !important; */
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
 }
 .from-light-blue-600 {
   --tw-gradient-from: #258ea9 var(--tw-gradient-from-position) !important;
-  --tw-gradient-to: rgb(37 142 169 / 0) var(--tw-gradient-to-position) !important;
+  /* --tw-gradient-to: rgb(37 142 169 / 0) var(--tw-gradient-to-position) !important; */
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
 }
 .from-light-blue-600\/20 {
   --tw-gradient-from: rgb(37 142 169 / 0.2) var(--tw-gradient-from-position) !important;
-  --tw-gradient-to: rgb(37 142 169 / 0) var(--tw-gradient-to-position) !important;
+  /* --tw-gradient-to: rgb(37 142 169 / 0) var(--tw-gradient-to-position) !important; */
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
 }
 .from-light-blue-600\/40 {
   --tw-gradient-from: rgb(37 142 169 / 0.4) var(--tw-gradient-from-position) !important;
-  --tw-gradient-to: rgb(37 142 169 / 0) var(--tw-gradient-to-position) !important;
+  /* --tw-gradient-to: rgb(37 142 169 / 0) var(--tw-gradient-to-position) !important; */
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
 }
 /* gradient from -- branding end  */
