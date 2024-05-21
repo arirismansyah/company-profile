@@ -1,7 +1,7 @@
 export const ExploreItems = [
   {
     id: 1,
-    image: "/images/items/1.jpg",
+    image: "/images/items/5.gif",
     title: "Digital Collection",
     subtext: "@CutieGirl",
     items: 25,
@@ -26,7 +26,7 @@ export const ExploreItems = [
   },
   {
     id: 2,
-    image: "/images/items/2.gif",
+    image: "/images/items/5.gif",
     title: "GIF Collection",
     subtext: "@ButterFly",
     items: 25,
@@ -51,7 +51,7 @@ export const ExploreItems = [
   },
   {
     id: 3,
-    image: "/images/items/3.jpg",
+    image: "/images/items/5.gif",
     title: "Sports Collection",
     subtext: "@NorseQueen",
     items: 25,
@@ -76,7 +76,7 @@ export const ExploreItems = [
   },
   {
     id: 4,
-    image: "/images/items/5.jpg",
+    image: "/images/items/5.gif",
     title: "Illustrations Collection",
     subtext: "@Angel",
     items: 25,
@@ -99,34 +99,34 @@ export const ExploreItems = [
       }
     ]
   },
-  {
-    id: 5,
-    image: "/images/avatar/6.jpg",
-    title: "Animations Collection",
-    subtext: "@CrazyAnyone",
-    items: 25,
-    avatar: "/images/items/6.jpg",
-    name: "Floyd Glasgow",
-    category: "Video",
-    date: "December 29, 2023 6:0:0",
-    subImages: [
-      {
-        index: 12,
-        image: '/images/items/7.jpg'
-      },
-      {
-        index: 13,
-        image: '/images/avatar/7.jpg'
-      },
-      {
-        index: 14,
-        image: '/images/items/9.jpg'
-      }
-    ]
-  },
+  // {
+  //   id: 5,
+  //   image: "/images/avatar/5.gif",
+  //   title: "Animations Collection",
+  //   subtext: "@CrazyAnyone",
+  //   items: 25,
+  //   avatar: "/images/items/6.jpg",
+  //   name: "Floyd Glasgow",
+  //   category: "Video",
+  //   date: "December 29, 2023 6:0:0",
+  //   subImages: [
+  //     {
+  //       index: 12,
+  //       image: '/images/items/7.jpg'
+  //     },
+  //     {
+  //       index: 13,
+  //       image: '/images/avatar/7.jpg'
+  //     },
+  //     {
+  //       index: 14,
+  //       image: '/images/items/9.jpg'
+  //     }
+  //   ]
+  // },
   {
     id: 6,
-    image: "/images/items/1.jpg",
+    image: "/images/items/5.gif",
     title: "Digital Collection",
     subtext: "@CutieGirl",
     items: 25,
@@ -151,7 +151,7 @@ export const ExploreItems = [
   },
   {
     id: 7,
-    image: "/images/items/2.gif",
+    image: "/images/items/5.gif",
     title: "GIF Collection",
     subtext: "@ButterFly",
     items: 25,
@@ -176,7 +176,7 @@ export const ExploreItems = [
   },
   {
     id: 8,
-    image: "/images/items/3.jpg",
+    image: "/images/items/5.gif",
     title: "Sports Collection",
     subtext: "@NorseQueen",
     items: 25,
@@ -201,7 +201,7 @@ export const ExploreItems = [
   },
   {
     id: 9,
-    image: "/images/items/1.jpg",
+    image: "/images/items/5.gif",
     title: "Digital Collection",
     subtext: "@CutieGirl",
     items: 25,
@@ -226,7 +226,7 @@ export const ExploreItems = [
   },
   {
     id: 10,
-    image: "/images/items/2.gif",
+    image: "/images/items/5.gif",
     title: "GIF Collection",
     subtext: "@ButterFly",
     items: 25,
@@ -251,7 +251,7 @@ export const ExploreItems = [
   },
   {
     id: 11,
-    image: "/images/items/3.jpg",
+    image: "/images/items/5.gif",
     title: "Sports Collection",
     subtext: "@NorseQueen",
     items: 25,
@@ -276,7 +276,7 @@ export const ExploreItems = [
   },
   {
     id: 12,
-    image: "/images/items/5.jpg",
+    image: "/images/items/5.gif",
     title: "Illustrations Collection",
     subtext: "@Angel",
     items: 25,

@@ -13,6 +13,7 @@ const Navbar = dynamic(() => import("./components/navbar"));
 const Footer = dynamic(() => import("./components/footer"));
 const CreatorThree = dynamic(() => import("./components/creator-three"));
 const Feature = dynamic(() => import("./components/feature"));
+const Service = dynamic(() => import("./components/service"));
 const ExploreTtem = dynamic(() => import("./components/explore-item"));
 const Blog = dynamic(() => import("./components/blog"));
 const Hero = dynamic(() => import("./components/hero"));
@@ -122,7 +123,8 @@ export default function Landing() {
 
       <section className="relative md-py-24 py-16">
         <div className=" md-my-24 my-16">
-          <Feature id="services" />
+          {/* <Feature id="services" /> */}
+          <Service></Service>
         </div>
         <Client id="clients" title="Our Clients" />
 
