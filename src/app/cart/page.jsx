@@ -14,7 +14,7 @@ import { LuClock, LuSearch } from "react-icons/lu";
 
 export default function ExploreOne() {
   useEffect(() => {
-    document.documentElement.classList.add("light");
+    
     document.body.classList.add(
       "font-urbanist",
       "text-base",
@@ -150,10 +150,10 @@ export default function ExploreOne() {
           </div>
         </div>
 
-        <div className="container z-1">
+        <div className="container z-1 mt-8">
           <div className="grid lg:grid-cols-12 md:grid-cols-2 grid-cols-1 gap-[30px]">
-            <div className="lg:col-span-8  bg-gradient-to-tl from-orange-600/40 to-light-blue-600/40 dark:from-orange-600/60 dark:to-light-blue-600/60">
-              <div className="mb-8 mt-4">
+            <div className="px-0 lg:col-span-8  bg-gradient-to-tl from-orange-600/40 to-light-blue-600/40 dark:from-orange-600/60 dark:to-light-blue-600/60">
+              <div className="mb-8 mt-4 px-0">
                 <DiscoverItems all={true} pagination={true} />
               </div>
             </div>

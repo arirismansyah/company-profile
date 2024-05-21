@@ -3,6 +3,7 @@ module.exports = {
   mode: 'jit',
   content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: 'class',
+
   important: true,
   theme: {
     screens: {
@@ -24,7 +25,7 @@ module.exports = {
       },
 
     },
-    
+
 
     fontFamily: {
       'urbanist': "var(--font-urbanist)"
@@ -34,6 +35,8 @@ module.exports = {
         'dark': '#3c4858',
         'black': '#161c2d',
         'dark-footer': '#192132',
+        'dark-blue': '#005e88',
+        'light-blue': '#258ea9'
       },
 
       boxShadow: {

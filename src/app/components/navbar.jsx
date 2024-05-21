@@ -228,23 +228,30 @@ export default function Navbar() {
           {/* <!-- Logo container--> */}
           <Link className="logo ps-0" href="/">
             <Image
-              src="/images/logo-ganapatih-sfc.png"
+              src="/images/logo-square-w.png"
               width={28}
               height={28}
               className="inline-block sm:hidden"
               alt=""
             />
+            <Image
+              src="/images/logo-square.png"
+              width={28}
+              height={28}
+              className="inline-block dark:hidden sm:hidden"
+              alt=""
+            />
             <div className="sm:block hidden">
               <Image
                 src="/images/logo-ganapatih-sfc.png"
-                width={116}
+                width={100}
                 height={28}
                 className="inline-block dark:hidden h-7"
                 alt=""
               />
               <Image
                 src="/images/logo-ganapatih-sw.png"
-                width={116}
+                width={100}
                 height={8}
                 className="hidden dark:inline-block h-7"
                 alt=""
@@ -274,10 +281,10 @@ export default function Navbar() {
 
           <ul className="buy-button list-none align-middle mb-0 items-center">
             <li className="inline-block mb-0">
-              <Link
+              <Link 
                 href="cart"
                 id="connectWallet"
-                className="btn rounded-full bg-dark-blue-600 hover:bg-orange-700 border-dark-blue-600 hover:border-orange-700 text-white"
+                className="btn collapse rounded-full bg-dark-blue-600 hover:bg-orange-700 border-dark-blue-600 hover:border-orange-700 text-white"
               >
                 Cart <i className="mdi mdi-cart-outline me-1"></i>
               </Link>

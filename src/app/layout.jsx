@@ -2,6 +2,7 @@ import "./globals.css";
 import "./assets/css/materialdesignicons.min.css";
 import "./assets/css/tailwind.css";
 import { Urbanist } from "next/font/google";
+import Head from "next/head";
 
 const urbanist = Urbanist({
   subsets: ["latin"],
@@ -18,6 +19,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" dir="LTR">
+      <Head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <link rel="icon" href="../../public/images/l" />
+      </Head>
       <body className={`${urbanist.variable}`}>{children}</body>
     </html>
   );
