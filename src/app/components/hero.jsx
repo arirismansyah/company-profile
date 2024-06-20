@@ -4,7 +4,8 @@ import { Hexagon } from "react-feather";
 import { TbSitemap, TbCameraPlus } from "react-icons/tb";
 import { LuLayers } from "react-icons/lu";
 
-export default function Hero() {
+export default function Hero({company_name_pt1, company_name_pt2}) {
+  
   const downloadPdf = async () => {
     try {
       // Dynamically import html2pdf.js
@@ -29,7 +30,7 @@ export default function Hero() {
     }
   };
   return (
-    <section className="relative md:pt-48 pt-36 overflow-hidden">
+    <section id="hero" className="relative md:pt-48 pt-36 overflow-hidden">
       <div className="container">
         <div className="grid grid-cols-1 justify-center text-center mt-10">
           <div className="relative">

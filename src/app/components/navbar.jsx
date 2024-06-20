@@ -20,6 +20,8 @@ export default function Navbar() {
     activateMenu();
   }, []);
 
+  
+
   function windowScroll() {
     const navbar = document.getElementById("topnav");
     if (
@@ -289,41 +291,24 @@ export default function Navbar() {
                 Cart <i className="mdi mdi-cart-outline me-1"></i>
               </Link>
             </li>
-            {/* <li className="inline-block mb-0 ps-1">
-              <div className="relative inline-block">
-                <input
-                  type="checkbox"
-                  className="checkbox opacity-0 absolute"
-                  id="chk"
-                  onClick={(event) => changeMode("mode", event)}
-                />
-                <label
-                  className="label bg-slate-900 dark:bg-white shadow dark:shadow-gray-800 cursor-pointer rounded-full flex justify-between items-center p-1 w-14 h-8"
-                  htmlFor="chk"
-                >
-                  <HiOutlineMoon className="text-[20px] text-yellow-500" />
-                  <HiOutlineSun className="text-[20px] text-yellow-500" />
-                  <span className="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] w-7 h-7"></span>
-                </label>
-              </div>
-            </li> */}
+          
           </ul>
-
           <div
             id="navigation"
             className={`${isOpen === true ? "hidden" : "block"}`}
           >
             <ul className="navigation-menu justify-center">
               <li className="has-submenu parent-menu-item">
-                <Link href="#services">Services</Link>
+                <Link href="/#services" >Services</Link>
               </li>
-
               <li className="has-submenu parent-parent-menu-item">
-                <Link href="#clients">Clients</Link>
+                <Link href="/#clients">Clients</Link>
               </li>
-
+              <li className="has-submenu parent-parent-menu-item">
+                <Link href="/#projects" >Projects</Link>
+              </li>
               <li>
-                <Link href="#footer">Contact</Link>
+                <Link href="/#footer" >Contact</Link>
               </li>
             </ul>
           </div>

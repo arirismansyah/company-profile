@@ -8,7 +8,7 @@ import { MdOutlineArrowForward } from "react-icons/md";
 import { FiUserPlus } from "react-icons/fi";
 import { ExploreItems, TeamItems } from "../data/data";
 
-export default function CreatorThree({ title, description, data }) {
+export default function Team({ title, description, data }) {
   return (
     <>
       <div className="grid grid-cols-1 text-center">

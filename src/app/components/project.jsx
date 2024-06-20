@@ -12,7 +12,7 @@ import "tiny-slider/dist/tiny-slider.css";
 
 import { ExploreItems } from '../data/data';
 
-export default function Service() {
+export default function Project() {
     useEffect(() => {
     document.documentElement.classList.add("dark");
     document.body.classList.add(
@@ -55,10 +55,10 @@ export default function Service() {
 
   return (
     <>
-      <div id='services' className="container">
+      <div id='projects' className="container">
         <div className="grid grid-cols-1 text-center">
         <h3 className="mb-4 md:text-3xl text-2xl md:leading-snug leading-snug font-semibold">
-          Our Services
+          Our Projects
         </h3>
 
         <p className="text-slate-400 max-w-xl mx-auto">

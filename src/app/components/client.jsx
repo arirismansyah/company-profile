@@ -9,7 +9,7 @@ import { walletData } from "../data/data";
 
 export default function Client() {
   return (
-    <section className="relative md:py-24 py-16">
+    <section id="clients" className="relative md:py-24 py-16">
       <div className="container">
         <div className="grid grid-cols-1 text-center">
         <h3 className="mb-4 md:text-3xl text-2xl md:leading-snug leading-snug font-semibold">

@@ -6,6 +6,7 @@
 
 html {
   font-family: var(--font-urbanist)!important ;
+  scroll-behavior: smooth;
 }
 /* :root {
   --foreground-rgb: 0, 0, 0;

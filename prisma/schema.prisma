@@ -1,0 +1,66 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url = env("POSTGRES_PRISMA_URL") // uses connection pooling
+  directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
+}
+
+model Attributes {
+  id Int @id @default(autoincrement())
+  attribute_name String @unique
+  attribute_value String
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+}
+
+model Tags {
+  id Int @id @default(autoincrement())
+  tag_name String @unique
+  services Services[]
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+}
+
+model Services {
+  id Int @id @default(autoincrement())
+  service_nama String
+  service_desc String
+  service_icon String
+  service_demo_link String
+  service_preview_link String
+  service_unit String
+  tags Tags[]
+  projects Projects[]
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+}
+
+model Projects {
+  id Int @id @default(autoincrement())
+  project_name String
+  project_desc String
+  services Services[]
+  client Clients @relation(fields: [client_id], references: [id])
+  client_id Int 
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+}
+
+model Clients {
+  id Int @id @default(autoincrement())
+  client_name String
+  client_icon String
+  client_link String
+  projects Projects[]
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+}

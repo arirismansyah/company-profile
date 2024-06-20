@@ -2604,19 +2604,19 @@ h6,
 }
 #topnav .has-submenu.active .submenu li.active > a {
   --tw-text-opacity: 1 !important;
-  color: rgb(124 58 237 / var(--tw-text-opacity)) !important;
+  color: rgb(0 94 136 / var(--tw-text-opacity)) !important;
 }
 :is(.dark #topnav .has-submenu.active .submenu li.active > a) {
   --tw-text-opacity: 1 !important;
-  color: rgb(124 58 237 / var(--tw-text-opacity)) !important;
+  color: rgb(0 94 136 / var(--tw-text-opacity)) !important;
 }
 #topnav .has-submenu.active.active .menu-arrow {
   --tw-border-opacity: 1;
-  border-color: rgb(124 58 237 / var(--tw-border-opacity));
+  border-color: rgb(0 94 136 / var(--tw-border-opacity));
 }
 :is(.dark #topnav .has-submenu.active.active .menu-arrow) {
   --tw-border-opacity: 1;
-  border-color: rgb(124 58 237 / var(--tw-border-opacity));
+  border-color: rgb(0 94 136 / var(--tw-border-opacity));
 }
 #topnav .has-submenu .submenu .submenu-arrow {
   border-width: 0px 0.125rem 0.125rem 0px;
@@ -2653,11 +2653,11 @@ h6,
 }
 #topnav .has-submenu .submenu .has-submenu:hover > .submenu-arrow {
   --tw-border-opacity: 1;
-  border-color: rgb(124 58 237 / var(--tw-border-opacity));
+  border-color: rgb(0 94 136 / var(--tw-border-opacity));
 }
 :is(.dark #topnav .has-submenu .submenu .has-submenu:hover > .submenu-arrow) {
   --tw-border-opacity: 1;
-  border-color: rgb(124 58 237 / var(--tw-border-opacity));
+  border-color: rgb(0 94 136 / var(--tw-border-opacity));
 }
 #topnav
   .has-submenu
@@ -2667,7 +2667,7 @@ h6,
   .has-submenu:hover
   .submenu-arrow {
   --tw-border-opacity: 1;
-  border-color: rgb(124 58 237 / var(--tw-border-opacity));
+  border-color: rgb(0 94 136 / var(--tw-border-opacity));
 }
 :is(
     .dark
@@ -2680,7 +2680,7 @@ h6,
       .submenu-arrow
   ) {
   --tw-border-opacity: 1;
-  border-color: rgb(124 58 237 / var(--tw-border-opacity));
+  border-color: rgb(0 94 136 / var(--tw-border-opacity));
 }
 #topnav
   .has-submenu
@@ -2690,7 +2690,7 @@ h6,
   .has-submenu:hover
   > .submenu-arrow {
   --tw-border-opacity: 1;
-  border-color: rgb(124 58 237 / var(--tw-border-opacity));
+  border-color: rgb(0 94 136 / var(--tw-border-opacity));
 }
 :is(
     .dark
@@ -2703,7 +2703,7 @@ h6,
       > .submenu-arrow
   ) {
   --tw-border-opacity: 1;
-  border-color: rgb(124 58 237 / var(--tw-border-opacity));
+  border-color: rgb(0 94 136 / var(--tw-border-opacity));
 }
 #topnav .navbar-toggle {
   position: relative;
